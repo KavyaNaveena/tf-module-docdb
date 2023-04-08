@@ -7,5 +7,5 @@ data "aws_ssm_parameter" "pass" {
 }
 
 data "aws_kms_key" "key" {
-  key_id = "alias/roboshop-docdb"
+  key_id = "alias/roboshop-documentdb"
 }
